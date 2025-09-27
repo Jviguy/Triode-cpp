@@ -7,8 +7,8 @@ See the new version here soon: https://github.com/Jviguy/Triode
 
 ## Warning small rant of my recent coding experience:
 
-After writing this I remembered why I don't really like C/C++ memory safety and implicit being the default. I mean overally really cool language and after a while I can understand memory aspects better. 
-But along with that I can see how stupid some of this stuff is. Copy constructors move constructors, the ownership model not really existing but hey smart points do it. With a good amount of invariance not being guaranteed.
+After writing this I remembered why I don't really like C/C++ memory safety and implicit being the default. I mean overally really cool language and while I haven't spent much time with it, my main issue is memory aspects.
+Copy constructors move constructors, the ownership model not really existing but hey smart pointers do it. With a good amount of invariance not being guaranteed.
 A lot of language features that feel added in just to add some convience but still fit into legacy requirements and not interrupt those. Like the initialization list, you can't reuse calculations in it. Mind you these methods are the only way
 to prevent the default constructors from being called on your objects. Every allocation of a new object takes basically two initializations depending on if you can use init lists or not. Its a good language and has its place
 but like when there exists a better way why not do it.
